@@ -82,11 +82,22 @@ img{
     display:block;
     margin:auto;
     width: 50%;
-    transition: ease 1s, width 2s, transform 2s;
+    transition: ease 1s, width 1s, transform 1s;
 }
 
-img:hover{
+.dj2 img{
+    display:block;
+    margin:auto;
+    width: 50%;
+    transition: ease 1s, width 1s;
+}
+
+.dj1 img:hover{
     width:500px;
     background-color: aqua;
     transform: rotate(360deg);
+}
+.dj2 img:hover{
+    width:500px;
+    background-color: aqua;
 }
