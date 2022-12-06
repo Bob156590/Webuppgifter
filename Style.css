@@ -82,22 +82,26 @@ img{
     display:block;
     margin:auto;
     width: 50%;
-    transition: ease 1s, width 1s, transform 1s;
-}
-
-.dj2 img{
-    display:block;
-    margin:auto;
-    width: 50%;
-    transition: ease 1s, width 1s;
+    transition: ease 1s, width 2s, transform 2s;
 }
 
 .dj1 img:hover{
     width:500px;
-    background-color: aqua;
     transform: rotate(360deg);
 }
 .dj2 img:hover{
     width:500px;
-    background-color: aqua;
+    transform:
+}
+
+.dj1, .dj2{
+    transition: ease 1s, background-color 2s;
+}
+
+.dj1:hover{
+    background-color:aqua;
+}
+
+.dj2:hover{
+    background-color:rgba(109, 32, 32, 0.979);
 }
