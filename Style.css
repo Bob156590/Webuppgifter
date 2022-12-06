@@ -82,4 +82,11 @@ img{
     display:block;
     margin:auto;
     width: 50%;
+    transition: ease 1s, width 2s, transform 2s;
+}
+
+img:hover{
+    width:500px;
+    background-color: aqua;
+    transform: rotate(360deg);
 }
