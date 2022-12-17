@@ -1,107 +1,43 @@
-body{
+#Index > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 80px auto auto auto;
     grid-template-areas:
-    "header"
+    "header header"
     "main"
     "aside"
-    "footer";
-    margin: 0;
-    padding: 0;
+    "footer footer";
 }
 
-header{
-    grid-area: header;
-}
-
-main{
-    grid-area: main;
-}
-
-aside{
-    grid-area: aside;
-}
-
-footer{
-    grid-area: footer;
-}
-
-#s1 nav>ul{¨
+#Sida1 > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template.rows: 1fr;
-    padding: 0;
-    margin: 0;
+    grid-template-rows: 80px auto auto auto;
+    grid-template-areas:
+    "header header"
+    "main"
+    "aside"
+    "footer footer";
 }
 
-nav>ul{
+#Sida2 > .wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px auto auto auto;
+    grid-template-areas:
+    "header header"
+    "main"
+    "aside"
+    "footer footer";
+}
+
+#Sida3 > .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template.rows: 1fr;
-    padding: 0;
-    margin: 0;
-}
-
-ul li{
-    list-style-type:none;
-}
-
-.right{
-    text-align:right;
-}
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 0;
-    margin: 0;
-}
-
-aside{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 0;
-    margin: 0;
-}
-
-{
-    background-color:#08EEEA;
-}
-
-p{
-    text-align:center;
-}
-
-.text{
-    line-height:45;
-}
-
-img{
-    display:block;
-    margin:auto;
-    width: 50%;
-    transition: ease 1s, width 2s, transform 2s;
-}
-
-.dj1 img:hover{
-    width:500px;
-    transform: rotate(360deg);
-}
-.dj2 img:hover{
-    width:500px;
-    transform:
-}
-
-.dj1, .dj2{
-    transition: ease 1s, background-color 2s;
-}
-
-.dj1:hover{
-    background-color:aqua;
-}
-
-.dj2:hover{
-    background-color:rgba(109, 32, 32, 0.979);
+    grid-template-rows: 80px auto auto auto;
+    grid-template-areas:
+    "header header"
+    "main"
+    "aside"
+    "footer footer";
 }
