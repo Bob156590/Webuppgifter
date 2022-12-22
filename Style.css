@@ -1,18 +1,23 @@
 #Index > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px auto auto auto;
+    grid-template-rows: 1fr ;
     grid-template-areas:
     "header header"
     "main"
     "aside"
-    "footer footer";
+    "footer footer";  
+}
+
+#index,header{
+    border: 1fr solid;
+    border-style: none;
 }
 
 #Sida1 > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px auto auto auto;
+    grid-template-rows: 1fr;
     grid-template-areas:
     "header header"
     "main"
@@ -23,7 +28,7 @@
 #Sida2 > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px auto auto auto;
+    grid-template-rows: 1fr;
     grid-template-areas:
     "header header"
     "main"
@@ -34,7 +39,7 @@
 #Sida3 > .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px auto auto auto;
+    grid-template-rows: 1fr;
     grid-template-areas:
     "header header"
     "main"
