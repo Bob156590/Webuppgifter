@@ -1,3 +1,17 @@
+
+header{
+    background-color: green;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer{
+    background-color: green;
+}
+
 #Index > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
@@ -7,11 +21,6 @@
     "main"
     "aside"
     "footer footer";  
-}
-
-#index,header{
-    border: 1fr solid;
-    border-style: none;
 }
 
 #Sida1 > .wrapper{
@@ -38,7 +47,7 @@
 
 #Sida3 > .wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
     "header header"
