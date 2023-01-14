@@ -66,6 +66,21 @@ body{
     grid-template-rows: 1fr 1fr;
 }
 
+#tiger,#apa,#fågel,#fisk>.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header"
+    "main"
+    "aside"
+    "footer footer";
+}
+
+#fågle{
+    background-color: blue;
+}
+
 section{
     display: block;
     text-align: center;
