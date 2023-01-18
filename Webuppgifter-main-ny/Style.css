@@ -6,7 +6,7 @@ html {
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right top, #451D03, #f07524); 
+    background: linear-gradient(to right, #451D03, #f07524); 
     color: white;
     height: 100%;
     width: 100%;
