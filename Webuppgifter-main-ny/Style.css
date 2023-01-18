@@ -60,13 +60,23 @@ body{
     "footer";
 }
 
+#Index main{
+    margin-left: 12px;
+}
+
+#Sida1 main{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
 #Sida2 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-#tiger,#apa,#fågel,#fisk .wrapper{
+#tiger .wrapper, #apa .wrapper, #fågel .wrapper, #fisk .wrapper{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto 1fr 1fr;
@@ -77,11 +87,20 @@ body{
     "footer";
 }
 
+#tiger p, #apa p, #fågel p, #fisk p{
+    margin-left: 15px;
+}
+
+#tiger h1, #apa h1, #fågel h1, #fisk h1{
+    margin-left: 15px;
+}
+
 
 #Sida2 section{
     display: block;
     text-align: center;
 }
+
 
 img{
     margin-left: auto;
@@ -89,7 +108,9 @@ img{
     margin-top: auto;
     margin-bottom: auto;
     width: 50%;
+    border-radius: 15% ;
 }
+
 
 table, th, td{
     border: 1px solid black;
@@ -97,16 +118,11 @@ table, th, td{
     height: auto;
     width: 900px;
     text-align: center;
+    font-size: 20px;
 }
 
 table{
     display: flex;
     justify-items: center;
     align-items: center;
-}
-
-#Sida1 main{
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr ;
 }
