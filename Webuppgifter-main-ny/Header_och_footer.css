@@ -1,14 +1,17 @@
+/* ger heddern och footern sin färg samt höjd */
 header, footer{
     background: linear-gradient(to right, turquoise, orange) ;
     height: 75px;
 }
 
+/* sätter possition på headern */ 
 header{
     border-radius: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;   
 }
 
+/* ställer position på footern */
 footer{
     border-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -19,11 +22,13 @@ footer{
     right: 0px;
 }
 
+/* gör text färg vit */
 a{
     text-decoration:none;
     color:white;
 }
 
+/* Ställer possitionen på navigeringsmenyn */
 nav>ul{
     display: flex;
     justify-content: center;
@@ -48,6 +53,7 @@ nav li{
     padding: 9px 12px ;
 }
 
+/* gör färgen för listan grå */
 li:hover{
     background-color: gray;
 }

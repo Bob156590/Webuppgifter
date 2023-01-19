@@ -3,6 +3,7 @@ html {
     width: 100%;
 }
  
+/* ger en font till bodyn samt färg */
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +17,7 @@ body{
     height: 100%;
 }
 
+/* wrapper Index sidan */
 #Index > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
@@ -27,6 +29,7 @@ body{
     "footer";
 }
 
+/* wrapper för sidan1 */
 #Sida1 > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
@@ -38,6 +41,7 @@ body{
     "footer";
 }
 
+/* wrapper för sidan2 */
 #Sida2 > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
@@ -48,6 +52,7 @@ body{
     "footer";
 }
 
+/* wrapper för sidan3 */
 #Sida3 > .wrapper{
     display: grid;
     grid-template-columns: 1fr;
@@ -59,6 +64,7 @@ body{
     "footer";
 }
 
+/* lägger en margin på sidorna som är visade */
 #Index main,#Sida1 main,#Sida3 main{
     margin-left: 12px;
 }
@@ -86,10 +92,12 @@ body{
     "footer";
 }
 
+/* Lägger margin på "djursidorna" */
 #tiger p, #apa p, #fågel p, #fisk p{
     margin-left: 15px;
 }
 
+/* Lägger margin på (h1) "djursidorna" */
 #tiger h1, #apa h1, #fågel h1, #fisk h1{
     margin-left: 15px;
 }
@@ -99,6 +107,7 @@ body{
     text-align: center;
 }
 
+/* ändra bildernas storlek och possition */
 img{
     display:flex;
     margin-left: auto;
@@ -111,6 +120,7 @@ img{
     align-items: center;
 }
 
+/* ändrar storlek och plast på loggan */
 .logo{
     width: 7vw;
     position: absolute;
@@ -124,6 +134,7 @@ img{
 }
 
 
+/* ändrar färg och pssition på pris tabellen */
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -133,6 +144,7 @@ table, th, td{
     font-size: 20px;
 }
 
+/* lägger listan rätt på sidan */
 table{
     display: flex;
     justify-items: center;
