@@ -3,15 +3,48 @@ html {
     width: 100%;
 }
  
-/* ger en font till bodyn samt färg */
+/* ger en font till bodyn */
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #451D03, #f07524); 
     color: white;
     height: 100%;
     width: 100%;
 }
+
+/* Andra färg på bakground */
+
+#Sida3{
+    background: linear-gradient(darkblue, white);
+}
+
+#Sida2{
+    background: linear-gradient(to right, #451D03, #f07524);
+}
+
+#Sida1{
+    background: linear-gradient( gold, silver,#b87333);
+}
+
+#fisk{
+    background: linear-gradient( #FDB813, #2B65EC, black);
+}
+
+#apa{
+    background: linear-gradient(yellow,#3A5F0B, rgb(83, 49, 24));
+    color: black;
+}
+
+#tiger{
+    background: linear-gradient( #FDB813, 60%, white, gray);
+    color:black
+}
+
+#fågel{
+    background: linear-gradient(#87CEEB, #b87333);
+    color:black
+}
+
 
 .wrapper{
     height: 100%;
