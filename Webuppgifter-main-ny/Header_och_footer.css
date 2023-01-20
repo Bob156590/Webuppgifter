@@ -1,5 +1,5 @@
 /* ger heddern och footern sin färg samt höjd */
-header, footer{
+header{
     background: linear-gradient(to right, turquoise, orange) ;
     height: 75px;
 }
@@ -12,20 +12,12 @@ header{
 }
 
 /* ställer position på footern */
-footer{
-    border-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-}
+
 
 /* gör text färg vit */
 a{
     text-decoration:none;
-    color:white;
+    color:black;
 }
 
 /* Ställer possitionen på navigeringsmenyn */

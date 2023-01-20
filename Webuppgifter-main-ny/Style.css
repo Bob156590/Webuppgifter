@@ -106,7 +106,7 @@ body{
 #Sida1 main{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr auto ;
 }
 
 #Sida2 main{
@@ -136,6 +136,11 @@ body{
     margin-left: 15px;
 }
 
+#Sida1 h1{
+    text-align: center;
+    color: black;
+}
+
 #Sida2 section{
     display: block;
     text-align: center;
@@ -143,7 +148,6 @@ body{
 
 /* ändra bildernas storlek och possition */
 img{
-    display:flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -154,6 +158,14 @@ img{
     align-items: center;
 }
 
+#tiger img, #apa img, #fågel img, #fisk img{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 25%;
+}
 /* ändrar storlek och plast på loggan */
 .logo{
     width: 7vw;
@@ -167,6 +179,14 @@ img{
     height: 0;
 }
 
+tr:nth-child(odd){
+    background-color:  orange;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: black;
+}
 
 /* ändrar färg och pssition på pris tabellen */
 table, th, td{
@@ -182,4 +202,8 @@ table, th, td{
 table{
     margin-left: auto;
     margin-right: auto;
+}
+
+th, td{
+    height: 2em;
 }
